@@ -6,13 +6,13 @@ authors = ["aRySt0cat <ryuta.academic@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.9,<3.12"
 notebook = "^7.2.1"
 ipywidgets = "^8.1.3"
-openai = "^1.34.0"
+openai = "^1.45.0"
 tiktoken = "^0.7.0"
-langchain = "^0.2.5"
-gradio = "^4.36.1"
+langchain = "^0.2.16"
+gradio = "^4.44.0"
 python-dotenv = "^1.0.1"
 pydantic = "^2.7.4"
 langchain-openai = "^0.1.17"
